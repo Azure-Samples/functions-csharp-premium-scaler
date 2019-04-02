@@ -39,7 +39,7 @@ You can clone and run the project locally, or deploy to Azure to run.  The follo
 
 ## Authentication
 
-By default the app will attempt to use [Managed Identities for Azure Services]() to authenticate and perform operations on your subscription.  You will need to make sure the managed identity has access to contribute to the resource group.  Alternative and for local testing you can use a service principal and provide an app ID and client secret in the application settings.
+By default the app will attempt to use [Managed Identities for Azure Services](https://docs.microsoft.com/azure/app-service/overview-managed-identity) to authenticate and perform operations on your subscription.  You will need to make sure the managed identity has access to contribute to the resource group.  Alternative and for local testing you can use a service principal and provide an app ID and client secret in the application settings.
 
 ## Testing
 
