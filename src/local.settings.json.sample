@@ -1,0 +1,24 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "APPNAME": "my-timecard-functionapp",
+    "SUBSCRIPTION_ID": "ef90e930-xxxx-xxxx-xxxx-748e0eea69de",
+    "BASE_PLAN_NAME": "SouthCentralUSPlan",
+    "SCALED_PLAN_NAME": "my-premium-plan",
+    "SCALED_PREWARMED_INSTANCES": "1",
+    "SCALED_SKU": "EP1",
+    "COSMOSDB_DATABASENAME": "timecardDb",
+    "COSMOSDB_CONTAINERNAME": "timecard",
+    "BASE_COSMOSDB_RU": "400",
+    "SCALED_COSMOSDB_RU": "10000",
+    "LOCATION": "southcentralus",
+    "RESOURCE_GROUP": "jehollan-plan-mover",
+    "COSMOSDB_CONNECTIONSTRING": "<CosmosDB-Connection-string>",
+    "DURATION_SECONDS": "14400",
+    "SERVICE_PRINCIPAL_APP_ID": "b91f48f9-xxxx-xxxx-xxxx-614df8f4ca1a",
+    "SERVICE_PRINCIPAL_CLIENT_SECRET": "<service-principal-client-secret>",
+    "SERVICE_PRINCIPAL_TENANT_ID": "72f988bf-xxxx-xxxx-xxxx-2d7cd011db47"
+  }
+}
